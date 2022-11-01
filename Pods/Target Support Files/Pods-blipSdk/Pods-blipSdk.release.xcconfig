@@ -1,0 +1,11 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../libs" "${PODS_XCFRAMEWORKS_BUILD_DIR}/libs"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks' '@executable_path/../../Frameworks'
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "App" -framework "DKImagePickerController" -framework "DKPhotoGallery" -framework "FMDB" -framework "Flutter" -framework "FlutterPluginRegistrant" -framework "SDWebImage" -framework "SwiftyGif" -framework "audio_session" -framework "file_picker" -framework "flutter_keyboard_visibility" -framework "just_audio" -framework "open_filex" -framework "path_provider_ios" -framework "shared_preferences_ios" -framework "sqflite" -framework "url_launcher_ios" -framework "video_player_avfoundation" -framework "wakelock"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

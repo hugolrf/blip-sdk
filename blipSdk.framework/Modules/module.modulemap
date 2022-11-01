@@ -1,0 +1,11 @@
+framework module blipSdk {
+  umbrella header "blipSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module blipSdk.Swift {
+  header "blipSdk-Swift.h"
+  requires objc
+}

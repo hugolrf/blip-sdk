@@ -1,0 +1,16 @@
+PODS:
+  - libs (3.3.500)
+
+DEPENDENCIES:
+  - libs (from `./libs/libs.podspec`)
+
+EXTERNAL SOURCES:
+  libs:
+    :path: "./libs/libs.podspec"
+
+SPEC CHECKSUMS:
+  libs: 48a38871e296285e6f721d46ac722f98b78f3660
+
+PODFILE CHECKSUM: 941f51dc3e51bcd4822bb1fb651ed9b9ee023a2d
+
+COCOAPODS: 1.11.3

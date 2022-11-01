@@ -1,0 +1,20 @@
+${PODS_ROOT}/Target Support Files/libs/libs-xcframeworks.sh
+${PODS_ROOT}/../libs/App.xcframework
+${PODS_ROOT}/../libs/audio_session.xcframework
+${PODS_ROOT}/../libs/DKImagePickerController.xcframework
+${PODS_ROOT}/../libs/DKPhotoGallery.xcframework
+${PODS_ROOT}/../libs/file_picker.xcframework
+${PODS_ROOT}/../libs/Flutter.xcframework
+${PODS_ROOT}/../libs/FlutterPluginRegistrant.xcframework
+${PODS_ROOT}/../libs/flutter_keyboard_visibility.xcframework
+${PODS_ROOT}/../libs/FMDB.xcframework
+${PODS_ROOT}/../libs/just_audio.xcframework
+${PODS_ROOT}/../libs/open_filex.xcframework
+${PODS_ROOT}/../libs/path_provider_ios.xcframework
+${PODS_ROOT}/../libs/SDWebImage.xcframework
+${PODS_ROOT}/../libs/shared_preferences_ios.xcframework
+${PODS_ROOT}/../libs/sqflite.xcframework
+${PODS_ROOT}/../libs/SwiftyGif.xcframework
+${PODS_ROOT}/../libs/url_launcher_ios.xcframework
+${PODS_ROOT}/../libs/video_player_avfoundation.xcframework
+${PODS_ROOT}/../libs/wakelock.xcframework
